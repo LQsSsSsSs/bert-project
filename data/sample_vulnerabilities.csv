@@ -1,0 +1,52 @@
+description,vulnerability_type,severity
+"SQL injection vulnerability allows attackers to execute arbitrary SQL commands through user input fields",SQL Injection,Critical
+"Cross-site scripting vulnerability in comment section allows execution of malicious JavaScript code","Cross-Site Scripting (XSS)",High
+"Buffer overflow in network protocol parser can lead to remote code execution",Buffer Overflow,Critical
+"Authentication bypass vulnerability allows unauthorized access without credentials",Authentication Bypass,Critical
+"Weak password policy allows easy brute force attacks",Authentication Bypass,Medium
+"XSS vulnerability in search parameter enables cookie theft","Cross-Site Scripting (XSS)",High
+"SQL injection in login form permits database extraction",SQL Injection,Critical
+"Stack-based buffer overflow in image processing library",Buffer Overflow,High
+"Missing authentication check on admin endpoints",Authentication Bypass,High
+"Stored XSS in user profile description field","Cross-Site Scripting (XSS)",Medium
+"Improper input validation leads to SQL injection",SQL Injection,High
+"Integer overflow in memory allocation function",Buffer Overflow,Medium
+"Session fixation vulnerability in login mechanism",Authentication Bypass,Medium
+"Reflected XSS through URL parameters","Cross-Site Scripting (XSS)",Medium
+"Blind SQL injection in search functionality",SQL Injection,High
+"Heap overflow when processing malformed packets",Buffer Overflow,Critical
+"Hardcoded credentials in configuration file",Authentication Bypass,Critical
+"DOM-based XSS in client-side JavaScript","Cross-Site Scripting (XSS)",Low
+"Second-order SQL injection in user preferences",SQL Injection,Medium
+"Format string vulnerability in logging function",Buffer Overflow,High
+"Broken access control on API endpoints",Authentication Bypass,High
+"Persistent XSS vulnerability in forum posts","Cross-Site Scripting (XSS)",High
+"Time-based blind SQL injection",SQL Injection,Medium
+"Use-after-free vulnerability in memory management",Other,Critical
+"Insecure direct object reference vulnerability",Other,Medium
+"Path traversal vulnerability allows file system access",Other,High
+"XML external entity injection vulnerability",Other,High
+"Server-side request forgery vulnerability",Other,Medium
+"Insecure deserialization leads to remote code execution",Other,Critical
+"Cross-site request forgery vulnerability",Other,Medium
+"Missing rate limiting enables denial of service",Other,Low
+"Information disclosure through verbose error messages",Other,Low
+"Unvalidated redirects and forwards vulnerability",Other,Low
+"Insufficient logging and monitoring",Other,Low
+"Security misconfiguration in web server",Other,Medium
+"Sensitive data exposure in API responses",Other,Medium
+"Missing encryption of sensitive data",Other,High
+"Weak cryptographic algorithm usage",Other,Medium
+"Improper certificate validation",Other,High
+"Race condition in file upload functionality",Other,Medium
+"Command injection through system call",Other,Critical
+"LDAP injection vulnerability",Other,High
+"XML injection in SOAP service",Other,Medium
+"HTTP response splitting attack",Other,Medium
+"Click jacking vulnerability due to missing headers",Other,Low
+"Open redirect vulnerability in OAuth flow",Other,Medium
+"Mass assignment vulnerability in REST API",Other,Medium
+"Server-side template injection",Other,Critical
+"NoSQL injection in MongoDB query",Other,High
+"Insecure random number generation",Other,Low
+"Missing security headers",Other,Low
